@@ -13,7 +13,7 @@ Can add up to 5 CIDR Ranges Within a Single VPC.
 **Maximum VPCs per Region:**
 The default limit is 5 per region, which can be increased upon request.
 
-===========================================================================================
+===========================================================================
 
 **Subnets**
 **Definition**
@@ -25,7 +25,7 @@ Subnets are created within Availability Zones (AZs)
 **Subnets per VPC**
 The default limit is 200
 
-===========================================================================================
+===========================================================================
 
 **Public Subnet**
 **Definition**
@@ -37,7 +37,7 @@ Typically for web servers and load balancers
 **Points to Consider:**
 Requires an Internet Gateway for internet access
 
-===========================================================================================
+===========================================================================
 
 **Private Subnet**
 **Definition**
@@ -49,7 +49,7 @@ Ideal for sensitive applications like databases
 **Points to Consider:**
 Requires a NAT Gateway for outbound internet access
 
-===========================================================================================
+===========================================================================
 
 **Internet Gateway**
 **Role**
@@ -61,7 +61,7 @@ Attached to VPC and routes traffic to/from the internet
 **Points to Consider** 
 Public IP Is Necessary for resources in the public subnet to communicate with the internet.
 
-===========================================================================================
+===========================================================================
 
 **NAT Gateway**
 **Role**
@@ -76,7 +76,7 @@ Each NAT Gateway supports up to 55,000 simultaneous connections
 
 **Bandwidth:** Up to 45 Gbps, depending on the instance typec
 
-===========================================================================================
+===========================================================================
 
 **Route Tables**
 Role 
@@ -84,7 +84,7 @@ Controls where network traffic is directed
 
 **Configuration**
 Main Route Table: Automatically created, manages default routing for all subnet
-Custom Route Tables created manually for specific routing needs.
+Custom Route Tables are created manually for specific routing needs.
 
 **Points to Consider**
 Define rules to determine network traffic direction
